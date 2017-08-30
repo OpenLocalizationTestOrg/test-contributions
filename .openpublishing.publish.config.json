@@ -24,7 +24,7 @@
   "branches_to_filter": [],
   "skip_source_output_uploading": false,
   "contribution_branch_mappings": {
-    "OsmondJiang-patch-1": "master-sxs2"
+    "master": "master-sxs2"
   },
   "need_preview_pull_request": true,
   "dependent_repositories": [
