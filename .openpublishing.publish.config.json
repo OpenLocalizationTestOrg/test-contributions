@@ -24,7 +24,7 @@
   "branches_to_filter": [],
   "skip_source_output_uploading": false,
   "contribution_branch_mappings": {
-    "master": "master-sxs1"
+    "master": "master-sxs2"
   },
   "dependent_repositories": [
     {
