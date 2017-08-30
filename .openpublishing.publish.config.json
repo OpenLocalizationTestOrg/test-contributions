@@ -26,6 +26,7 @@
   "contribution_branch_mappings": {
     "master": "master-sxs2"
   },
+  "need_preview_pull_request": true,
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
