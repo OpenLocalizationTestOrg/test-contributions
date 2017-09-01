@@ -21,7 +21,7 @@
     }
   ],
   "notification_subscribers": [],
-  "branches_to_filter": [],
+  "branches_to_filter": ["master-sxs1"],
   "skip_source_output_uploading": false,
   "contribution_branch_mappings": {
     "master": "master-sxs2"
