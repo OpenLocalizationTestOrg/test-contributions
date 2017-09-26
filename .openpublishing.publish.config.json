@@ -1,7 +1,5 @@
 {
   "build_entry_point": "docs",
-  "need_generate_pdf": false,
-  "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
       "docset_name": "test-contribution",
@@ -21,22 +19,18 @@
     }
   ],
   "notification_subscribers": [],
-  "branches_to_filter": [],
+  "branches_to_filter": [
+    "master-sxs1"
+  ],
   "skip_source_output_uploading": false,
-  "contribution_branch_mappings":{
-    "master": "master-sxs1"
-  },
   "need_preview_pull_request": true,
+  "contribution_branch_mappings": {
+    "master": "master-sxs2"
+  },
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft",
-      "branch": "master",
-      "branch_mapping": {}
-    },
-     {
-      "path_to_root": "CRR",
-      "url": "https://github.com/OpenLocalizationTestOrg/ArchivingRepoTest-2",
       "branch": "master",
       "branch_mapping": {}
     }
